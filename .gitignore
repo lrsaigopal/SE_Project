@@ -8,8 +8,6 @@
 bin/
 tmp/
 *.tmp
-*.bak
-*.swp
 *~.nib
 local.properties
 .classpath
