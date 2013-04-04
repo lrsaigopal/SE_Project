@@ -1,0 +1,113 @@
+body{
+    
+    background: repeat url(images/bg.png);
+}
+.components
+{
+    position: absolute;
+    display: none;
+    
+}
+.components:hover
+{
+    cursor: pointer;
+}
+#student
+{
+    position: absolute;
+    display: none;
+    
+}
+#hi
+{
+    text-align: right;
+    font-family: verdana;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#copyright
+{
+    font-family: sans-serif;
+    color: white;
+    display: none;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+}
+#logout
+{
+    text-align: right;
+    font-family: verdana;
+    color: white;
+    position: absolute;
+    display: none;
+    font-size: large;
+    font-weight: bold;
+    
+}
+#logout:hover
+{
+    cursor: pointer;
+}
+#dashboard
+{
+   
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+    animation:myfirst 2s;
+    -moz-animation:myfirst 2s; /* Firefox */
+    -webkit-animation:myfirst 2s; /* Safari and Chrome */
+    -o-animation:myfirst 2s; /* Opera */
+}
+#dashboardDiv{
+    text-align: center;
+
+}
+@keyframes myfirst
+{
+    from{
+            width:15%;
+            height:15%;
+        }
+    to {
+            width: 50%;
+            height:50%;
+        }
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    from {
+            width:15%;
+            height:15%;
+        }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {
+            width:15%;
+            height:15%;
+        }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    from {
+            width:15%;
+            height:15%;
+            }
+    to {
+            width:50%;
+            height:50%;
+        }
+}

@@ -1,0 +1,48 @@
+body{
+    
+    background: repeat url(images/bg.png);
+}
+div#loginComponent
+{
+    position: absolute;
+}
+#copyright
+{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    position: absolute;
+    bottom: 3px;
+    
+}
+input
+{
+    background-color: #242424;
+    border: solid #323232 3px;
+    font-size: large;
+    color: rgb(220,220,220);
+    font-family: "Myriad Pro";
+    padding: 1px 1px 1px 1px;
+    margin-bottom: 4px;
+    position: relative;
+    bottom: 1em;
+    border-radius: 5px;
+}
+img#user
+{
+    padding-top: 2px;
+    
+}
+#login
+{
+    float: right;
+    cursor: pointer;
+}
+img#pwd
+{
+    padding-left: 0.5px;
+    
+}
+
