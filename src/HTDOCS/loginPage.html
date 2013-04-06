@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8 >
+		<title>Placement Portal</title>
+		<link rel="stylesheet" href="all.css" type="text/css" media="screen"/>
+		<script  src="style.js"></script>
+		<script src="validate.js"></script>
+	</head>
+	<body onload="positionLoginComponent(event)" onresize="positionLoginComponent(event)">
+		<div id="loginComponent">
+			<form action="some.php" method="POST"  id="myForm" >
+				<div>
+					<img alt="userIcon" src="images/user.png" id="user"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" name="username" placeholder=" Username" class = "required" required/>
+					<span id="usernameError"  class ="error"></span>
+				</div>
+				<div>
+					<img alt="userIcon" src="images/pwd.png" id="pwd"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="password" name="password" placeholder=" Password" class= "required" required/>
+					<span class ="error" id="passwordError"></span>
+				</div>
+				<div>
+					<a title="Did You Forget Your Password" href=""><img alt="ForgotPassword" src="images/forgotPassword.png" /></a>
+				</div>
+				<div>
+					<img alt="userIcon" src="images/login.png" id="login" title ="Login" onclick="validate()"/>
+				</div>
+			</form>
+		</div>
+		<div id ="copyright">Contact Us&nbsp;|&nbsp;Privacy Statement<div>&copy;&nbsp;2013 Placement Management Group. All Rights reserved</div></div>
+	</body>
+	
+</html>
+	
+	
+	

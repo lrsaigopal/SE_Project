@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8 >
+		<title>Placement Portal</title>
+		<link rel="stylesheet" href="all.css" type="text/css" media="screen"/>
+		<script  src="style.js"></script>
+		<script src="jquery.js"></script>
+		<script src="jquery.rsv-2.5.1.min.js"></script>
+	</head>
+	<body onload="positionLoginComponent(event)" onresize="positionLoginComponent(event)">
+		<div id="loginComponent">
+			<div>
+				
+			</div>
+			<form action="some.php" method="POST" class="required-form" id="myForm" onsubmit="return rsv.validate(this, rules)">
+				<div>
+					<img alt="userIcon" src="images/user.png" id="user"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" name="username" placeholder=" Username" class = "required" required/>
+				</div>
+				<div>
+					<img alt="userIcon" src="images/pwd.png" id="pwd"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="password" name="password" placeholder=" Password" class= "required" required/>
+				</div>
+				<div>
+					<a title="Did You Forget Your Password" href=""><img alt="ForgotPassword" src="images/forgotPassword.png" /></a>
+				</div>
+				<div>
+					<img alt="userIcon" src="images/login.png" id="login" title ="Login"onclick="document.getElementById('myForm').submit()"/>
+				</div>
+			</form>
+		</div>
+		
+	</body>
+</html>
+	
+	
+	
