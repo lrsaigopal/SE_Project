@@ -6,4 +6,4 @@ Created on 12-Mar-2013
 '''
 
 if __name__ == '__main__':
-    print('Test')
+    print('Test HI')
