@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Profile </title>
+	</style>
+    <link rel="stylesheet" href="profilePageCSS.css" type="text/css" media="screen"/>
+    <script>
+	function init() 
+	{
+		console.log("I'm here :P");
+		setTimeout(displayButtons,15);
+	}
+
+	function displayButtons()
+	{   
+	  icons = document.getElementsByClassName("icon");
+	  off = document.getElementById("dashboard");
+	  iconLeft = parseInt(off.style.left) + 20 + "px";
+	  iconTop = parseInt(off.style.offsetTop) + 20 ;
+	  incr = 20;
+	  iconLeft = 400 + "px";
+	  iconTop = 150;
+	  for(i=0;i<icons.length;i++)
+	  {
+			console.log("SR RS");
+			icons.item(i).style.position = "absolute";
+			icons.item(i).style.width = 35+"px";
+			icons.item(i).style.height = 35+"px";
+			icons.item(i).style.display = "inline";
+			icons.item(i).style.left = iconLeft;
+			icons.item(i).style.top = iconTop + incr + "px";
+			incr += 65;
+	  }
+	  content = document.getElementsByClassName("content");
+	  console.log("$$$"+content);
+	  contentTop = 175;
+	  contentLeft = parseInt(iconLeft) + 70 + "px"; 
+	  /*var contentsArray = new Array();
+	  for(i = 0 ;i <content.length;i++)
+	  {
+			console.log("In COnversion");
+			contentsArray[i] = content.item(i);
+			console.log(contentsArray[i]);
+		}*/
+	  incr = 0;
+	  for(i=0;i<content.length;i++)
+	  {
+			content.item(i).style.position = "absolute";
+			content.item(i).style.display = "block";
+			content.item(i).style.left = contentLeft;
+			content.item(i).style.top = contentTop + incr + "px";
+			incr += 65;
+	  }
+	  
+	  line = document.getElementsByClassName("line");
+	  console.log("%%%"+line);
+	  lineTop = 195;
+	  lineLeft = parseInt(iconLeft) + 60 + "px"; 
+	  /*var contentsArray = new Array();
+	  for(i = 0 ;i <content.length;i++)
+	  {
+			console.log("In COnversion");
+			contentsArray[i] = content.item(i);
+			console.log(contentsArray[i]);
+		}*/
+	  incr = 0;
+	  for(i=0;i<line.length;i++)
+	  {
+			line.item(i).style.position = "absolute";
+			line.item(i).style.display = "block";
+			line.item(i).style.left = lineLeft;
+			line.item(i).style.top = lineTop + incr + "px";
+			incr += 65;
+	  }
+	  
+	  
+	  edit = document.getElementsByClassName("edit");
+	  console.log("*****"+edit);
+	  editTop = 180 ;
+	  editLeft = parseInt(iconLeft)+400 + 40 + "px"; 
+	  /*var contentsArray = new Array();
+	  for(i = 0 ;i <content.length;i++)
+	  {
+			console.log("In COnversion");
+			contentsArray[i] = content.item(i);
+			console.log(contentsArray[i]);
+		}*/
+	  incr = 0;
+	  for(i=0;i<edit.length;i++)
+	  {
+			console.log("SR RS");
+			edit.item(i).style.position = "absolute";
+			edit.item(i).style.width = 5+"px";
+			edit.item(i).style.height = 5+"px";
+			edit.item(i).style.left = editLeft;
+			edit.item(i).style.top = editTop + incr + "px";
+			if(i == 0 || i==4 || i==5 || i==6)
+			{
+				edit.item(i).style.display = "inline";
+				edit.item(i).style.cursor="pointer";
+			}
+			incr += 65;
+	  }
+	  
+}
+</script>
+</head>
+
+<body onload ="init()" >
+		<div><img src="images/PMSlogo80.png" id="logo" /></div>
+		<h1>Profile</h1>
+        <div id="hi">Hi Raj (1PI10CS137)</div>
+        <!--<div id="logout">Logout</div>-->
+        <div id="hi">Hi Raj Kiran S (1PI10CS137)</div>
+        <div id="logout">Logout</div>
+        <div id="dashboardDiv"><img src="images/dashboard.png" alt="dashboard"  id="dashboard"/></div>
+        <div><img src="images/myIcons/male32Mod.png" class= "icon"/></div>
+		<div class="content" name="contents">Raj Kiran S</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/usnMod.png"  class = "icon"/></div>
+		<div class="content" name="contents">1PI10CS137</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/sem.png"  class = "icon"/></div>
+		<div class="content" name="contents">VI</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/dept.png"  class = "icon"/></div>
+		<div class="content">Computer Science & Engineering</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/eMail.png"  class = "icon"/></div>
+		<div class="content">rajkirans711@gmail.com</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/phoneMod.png"  class = "icon"/></div>
+		<div class="content">9535440707</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+		<div><img src="images/myIcons/addrMod.png"  class = "icon"/></div>
+		<div class="content">PES Boys Hostel,PESIT</div>
+		<div class="line"></div>
+		<div class ="edit"><img src="images/myIcons/editMod.png" alt="edit" width="18px"/></div>
+
+            
+        
+        </br>
+        </br>
+        </br>
+        <div id ="copyright">Contact Us&nbsp;|&nbsp;Privacy Statement<div>&copy;&nbsp;2013 Placement Management Group. All Rights reserved</div></div>
+</body>
+</html>

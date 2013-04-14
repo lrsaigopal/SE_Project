@@ -1,0 +1,142 @@
+body{
+    
+    background: repeat url(images/bg.png);
+}
+#heading
+{
+	position:absolute;
+	top:10px;
+	left:650px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+#bg
+{
+	position:absolute;
+	left:100px;
+	top:30px;
+	width:1200px;
+	height:500px;
+}
+
+#copyright
+{
+position:absolute;
+	left:500px;
+	top:600px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+	
+	
+}
+
+
+#printBut {
+	-moz-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	-webkit-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	box-shadow:inset -50px -50px 0px 50px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:11px;
+	border:4px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Georgia;
+	font-size:21px;
+	font-weight:bold;
+	padding:5px 17px;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	top:510px;
+	left:200px;
+}
+#printBut:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#printBut:active {
+	position:relative;
+	top:1px;
+}
+
+#exportBut {
+	-moz-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	-webkit-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	box-shadow:inset -50px -50px 0px 50px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:11px;
+	border:4px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Georgia;
+	font-size:21px;
+	font-weight:bold;
+	padding:5px 17px;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	top:510px;
+	left:620px;
+}
+#exportBut:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#exportBut:active {
+	position:relative;
+	top:1px;
+}
+
+#queryBut {
+	-moz-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	-webkit-box-shadow:inset -50px -50px 0px 50px #ffffff;
+	box-shadow:inset -50px -50px 0px 50px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:11px;
+	border:4px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Georgia;
+	font-size:21px;
+	font-weight:bold;
+	padding:5px 17px;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	top:510px;
+	left:1100px;
+}
+#queryBut:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#queryBut:active {
+	position:relative;
+	top:1px;
+}
