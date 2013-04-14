@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>Query</title>
+	<link rel="stylesheet" href="queryPageCSS.css" type="text/css" media="screen"/>
+	<script>
+		function init()
+		{
+			h = document.getElementById("heading");
+			
+			bg = document.getElementById("bg");
+			bg.style.position = "absolute";
+			bgLeft = 200;
+			bgTop = 190;
+			bg.style.left=bgLeft+"px";
+			bg.style.top = bgTop+"px";
+			
+			query = document.getElementById("qStr");
+			query.style.position = "absolute";
+			query.style.left=bgLeft+50+"px";
+			query.style.top = bgTop+60+"px";
+			query.style.display = "block";
+		}
+			
+	</script>
+</head>
+<body onload="init()">
+<div><img src="images/PMSlogo80.png" id="logo" /></div>
+<div id="heading">Query</div>
+<div id="bg"><img src="images/queryBg.png" /></div>
+<a href="#" class="submitBut">Submit</a>
+<div id="qStr">
+	SELECT&nbsp;&nbsp;
+	<select id="list1">
+		<option>------</option>
+		<option>ALL</option>
+		<option>THOSE</option>
+	</select>
+	&nbsp;&nbsp;
+	<select id="list2">
+		<option>---------</option>
+		<option>STUDENTS</option>
+		<option>USER</option>
+	</select>
+	&nbsp;&nbsp;
+	OF SEM
+	<select id="list3">
+		<option>--</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+	</select>
+	&nbsp;&nbsp;
+	OF BRANCH
+	<select id="list4">
+		<option>--</option>
+		<option>CSE</option>
+		<option>ISE</option>
+		<option>ECE</option>
+		<option>TE</option>
+		<option>EEE</option>
+		<option>ME</option>
+		<option>BT</option>
+		<option>CV</option>
+	</select>
+	&nbsp;&nbsp;
+	WHO HAVE
+	&nbsp;&nbsp;
+	<select id="list5">
+		<option>---------</option>
+		<option>Gone For</option>
+		<option>Got Through</option>
+	</select>
+	&nbsp;&nbsp;
+	<select id="list6">
+		<option>--------------</option>
+		<option>Higher Studies</option>
+		<option>Some Company</option>
+		<option>Some Tier</option>
+	</select>
+</div>
+	
+	<div id ="copyright">Contact Us&nbsp;|&nbsp;Privacy Statement<div>&copy;&nbsp;2013 Placement Management Group. All Rights reserved</div></div>
+	
+	
+</body>
+</html>
