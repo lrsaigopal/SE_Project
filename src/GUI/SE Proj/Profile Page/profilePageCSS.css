@@ -1,0 +1,138 @@
+body{
+    
+    background: repeat url(images/bg.png);
+}
+.content{
+	display:none;
+	color:white;
+}
+.icon
+{
+	display:none;
+}
+.line
+{
+	border:2px solid #272727;
+	width:370px;
+}
+.edit
+{
+		display:none;
+}
+h1
+{
+	text-align:center;
+	font-family:"sans serif";
+	color:white;
+}
+#hi
+{
+    text-align: right;
+    font-family: verdana;
+    color: white;
+    position: absolute;
+    display: none;
+}
+#copyright
+{
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+}
+#logout
+{
+    text-align: right;
+    font-family: verdana;
+    color: white;
+    position: absolute;
+    display: none;
+    font-size: large;
+    font-weight: bold;
+
+    
+}
+#copyright
+{
+position:absolute;
+	left:500px;
+	top:600px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+	
+	
+}
+
+
+
+
+
+#dashboard
+{
+   
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+	z-index:-10;
+	position:absolute;
+	left:350px;
+	top:80px;
+	width:600px;
+	height:450px;
+}
+#dashboardDiv{
+    text-align: center;
+
+}
+@keyframes myfirst
+{
+    from{
+            width:15%;
+            height:15%;
+        }
+    to {
+            width: 50%;
+            height:50%;
+        }
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    from {
+            width:15%;
+            height:15%;
+        }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {
+            width:15%;
+            height:15%;
+        }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    from {
+            width:15%;
+            height:15%;
+            }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
