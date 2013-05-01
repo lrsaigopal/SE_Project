@@ -1,6 +1,7 @@
 body{
     
     background: repeat url(images/bg.png);
+    width: 1376px;
 }
 div#loginComponent
 {
@@ -37,12 +38,70 @@ img#user
 }
 #login
 {
+    opacity: .5;
     float: right;
     cursor: pointer;
+}
+#login:hover
+{
+
+    opacity: 1;
+    width: 80px;
+    animation:myfirst 0.2s;
+    -moz-animation:myfirst 0.2s; /* Firefox */
+    -webkit-animation:myfirst 2s; /* Safari and Chrome */
+    -o-animation:myfirst 2s; /* Opera */    
 }
 img#pwd
 {
     padding-left: 0.5px;
     
+}
+
+@keyframes myfirst
+{
+    from{
+            opacity: .5;
+            width:74px;
+        }
+    to {
+             opacity: 1;
+             width: 80px;
+        }
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    from{
+            opacity: 0.5;
+            width: 74px;
+        }
+    to {
+             opacity: 1;
+             width: 80px;
+        }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {
+            width:15%;
+            height:15%;
+        }
+    to {
+            width:50%;
+            height:50%;
+        }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    from {
+            width:15%;
+            height:15%;
+            }
+    to {
+            width:50%;
+            height:50%;
+        }
 }
 
