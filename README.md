@@ -20,6 +20,6 @@ Ullas Aparanji
 Varun V Shenoy
 Vijay Teja
 
-Developed Using Eclipse With PyDev Plugin
+Developed on PHP And HTML etc.
 
 Version 1.0 (stable)
