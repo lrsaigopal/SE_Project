@@ -11,5 +11,6 @@ function positionLoginComponent(event)
     }
     copyright = document.getElementById("copyright")
     copyright.style.left= (window.innerWidth - copyright.offsetWidth)/2 +"px";
+    
 }
 

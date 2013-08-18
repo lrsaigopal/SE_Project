@@ -1,0 +1,64 @@
+<!-- @Author Varun V Shenoy
+     @Description The Login Page for the website
+     @Interfaces
+	The forms method is to be populated.
+	The href of the forgot password alon with the target
+     @Details
+	The form data is recieved by the post method
+Strictly!! Please do not make any changes, accept those described above
+	
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8 >
+                    <title>Login Portal | Pesit Placement</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+                <!-- Loading Bootstrap -->
+                <link href="css/bootstrap.css" rel="stylesheet">
+            
+                <!-- Loading Flat UI -->
+                <link href="css/loginPage-ui.css" rel="stylesheet">
+                <link rel="shortcut icon" href="images/favicon.ico">
+            	<script src="validate.js"></script>
+                <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+                <!--[if lt IE 9]>
+                  <script src="js/html5shiv.js"></script>
+
+                <![endif]-->  
+	</head>
+        <body>
+	    <div class="login">
+		<div class="login-screen">
+		  <div class="login-icon">
+		    <img src="images/illustrations/stu.png" alt="Welcome to Mail App" />
+		    <h4>Welcome to <small>Pesit Placements</small></h4>
+		  </div>
+	
+		  <form class="login-form" id="localhost/login" method="get" action="some.php">
+		    <div class="control-group">
+		      <input type="text" class="login-field" value="" name ="username"placeholder="Username" name ="username" id="login-name" />
+		      <label class="login-field-icon fui-man-16" for="login-name"></label>
+		    </div>
+	
+		    <div class="control-group">
+		      <input type="password" class="login-field" name="password" value="" placeholder="Password" id="login-pass" />
+		      <label class="login-field-icon fui-lock-16" for="login-pass"></label>
+		    </div>
+		    <div>Something</div></br>
+		    <a class="btn btn-primary btn-large btn-block" onclick="validate(event);">Login</a>
+		    <a class="login-link" href="#" >Lost your password?</a>
+		  </form>
+		  <div class="tooltip fade bottom in" id="error" style="top: 460px; left: 600px; display: none; color: red;"><div class="tooltip-arrow">
+			
+		  </div>
+			<div class="tooltip-inner" id="error-message">
+				  
+			</div>
+		  </div>
+		</div>
+		<div id ="copyright">Contact Us&nbsp;|&nbsp;Privacy Statement<div>&copy;&nbsp;2013 Placement Management Group. All Rights reserved</div></div>
+	    </div>
+        </body>
